@@ -1,1 +1,2 @@
 name: FATcode's approval workflow
+on: pull_request_review
