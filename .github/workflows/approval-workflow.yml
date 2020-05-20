@@ -1,4 +1,4 @@
-name: FATcode's approval workflow
+name: Team awesome's approval workflow
 on: pull_request_review
 jobs:
   labelWhenApproved:
@@ -11,4 +11,3 @@ jobs:
         APPROVALS: "1"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         ADD_LABEL: "BotApproved"
-        REMOVE_LABEL: "awaiting%20review"
